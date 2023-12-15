@@ -1,0 +1,28 @@
+body {
+    background-image: url(pink.jpg);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Kjo siguron që trupi të zërë gjithë lartësinë e ekranit */
+}
+
+.projects {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.projects img {
+    width: 100%;
+    max-width: 500px; /* Sipas dëshirës, për të mbajtur një madhësi të arsyeshme */
+    border-radius: 10px; /* Sipas dëshirës, për të shtuar një formë të rrumbullakët */
+}
+
+.projects h3,
+.projects p {
+    margin-top: 10px; /* Sipas dëshirës, për të ndarë tekstin nga imazhi */
+}
